@@ -1,0 +1,34 @@
+SKV89's SLP Manager - bundled-component notices
+
+The NVIDIA source-check helper uses NVDEC interface headers under the MIT
+license reproduced in licenses/NVIDIA-NVDEC-Headers-MIT.txt. It loads only
+the installed NVIDIA driver interfaces; no NVIDIA driver or SDK is bundled.
+
+This portable Manager contains Python 3.11, Tcl/Tk, the PyInstaller runtime,
+Pillow, ReportLab, psutil and TkinterDnD2/TkDND. The licenses directory provides
+their applicable license texts. Keep it with the executable.
+
+Python uses the PSF license; Tcl/Tk and ReportLab use BSD-style terms.
+PyInstaller uses the GPL with its bootloader exception. Pillow uses the
+MIT-CMU license; its supplied notice also covers bundled image libraries.
+This software includes FreeType, used under the FreeType License; portions
+are copyright The FreeType Project (https://freetype.org).
+psutil uses BSD-3-Clause. TkinterDnD2 uses MIT; the accompanying TkDND extension
+has its own permissive notice reproduced in licenses/TkDND-license.txt.
+
+The experimental BF16 Fusion kernels were built using Triton. Its MIT notice
+is included. The Triton compiler, CUDA toolkit and model weights are not part
+of this portable download. Optional runtime packages are downloaded separately
+and retain their upstream notices in the extracted runtime directories.
+
+NVIDIA cuDNN, NVIDIA drivers, Topaz Video, Neuroserver and SLP models are not
+bundled. They remain governed by their own licenses and authorization. Runtime
+installation actions use the selected package's license and hash checks.
+NVAPI monitoring uses the installed NVIDIA driver; no NVAPI SDK or driver is
+included. No LibreHardwareMonitor binary is bundled.
+
+This Manager incorporates applicable SLP Tuning Launcher 1.2.2 changes. Its embedded inherited
+notices refer to that Launcher; this accompanying notice identifies the
+additional Manager components and does not replace their license terms.
+
+This is independent community tooling, not endorsed by Topaz Labs or NVIDIA.
